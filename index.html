@@ -4,32 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>volleybal Life</title>`
+    <meta name="description"
+        content="Volleyball Life is een persoonlijke website die de reis van een gepassioneerde volleyballer documenteert, van training met het nationale team tot het spelen in hogere divisies. Ontdek mijn verhaal, prestaties en passie voor volleybal.">
+    <title>volleybal Life</title>
     <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
 
-<body class=" m-0 font-sans text-black">
-    <header class="flex w-full h-[5rem] justify-between sticky top-0 p-2 border-b-2 border-[#e5e8ea] bg-white ">
-        <div class="flex items-center gap-3 ml-2 ">
-            <div>
-                <span>
-                    <img class="size-[40px]" src="fotos/logo.webp" alt="foto van oranje volleyball">
-                </span>
+<body class="m-0 font-sans text-black overflow-x-hidden">
+    <header class="sticky top-0 bg-white border-b">
+        <div class="mx-auto px-4 h-20 flex items-center justify-between">
+
+            <div class="flex items-center gap-3">
+                <img src="fotos/logo.webp" class="w-10 h-10">
+                <h2 class="text-[#ff6400] font-medium">Volleyball Life</h2>
             </div>
-            <div>
-                <h2 class="text-[#ff6400] font-medium">Volleyball life</h2>
-            </div>
-        </div>
-        <div class="flex items-center gap-4 mr-10 ">
-            <nav class="flex gap-3 items-center">
+
+            <nav class="hidden md:flex gap-6 items-center">
                 <a href="#home">Home</a>
                 <a href="#about">Over Mij</a>
                 <a href="#reis">Mijn Reis</a>
                 <a href="#gallery">Gallerij</a>
-                <a href="#contact" class="bg-[#ff6400] text-white px-6 py-2 border-2 border-[#ff6400]">Neem Contact
-                    Op</a>
+                <a href="#contact" class="bg-[#ff6400] text-white px-6 py-2 whitespace-nowrap">
+                    Neem Contact Op
+                </a>
             </nav>
+
+            <button id="menu-btn" class="md:hidden text-2xl">
+                ☰
+            </button>
+
+            <nav id="mobile-menu" class=" sm:hidden flex-col gap-3">
+                <a href="#home">Home</a>
+                <a href="#about">Over Mij</a>
+                <a href="#reis">Mijn Reis</a>
+                <a href="#gallery">Gallerij</a>
+                <a href="#contact" class="bg-[#ff6400] text-white px-6 py-2 whitespace-nowrap">Neem Contact Op</a>
+            </nav>
+
         </div>
     </header>
 
@@ -58,7 +70,8 @@
                     </div>
             </div>
             <div class="flex justify-center mt-6">
-                <img src="fotos/nimir.jpg" alt="">
+                <img src="fotos/nimir.jpg" alt="foto van nimir abedel aziz" class="w-max h-max" width="400"
+                    height="300">
             </div>
         </section>
 
@@ -83,39 +96,36 @@
             </div>
         </section>
 
-        <section id="about" class="py-12 px-6 mt-6 lg: px-8 border-b-2 border-gray-300">
+        <section id="about" class="py-12 px-6 mt-6 lg:px-8 border-b-2 border-gray-300">
             <div class="flex justify-center">
-                <img src="fotos/team_Foto.jpg" alt="">
+                <img src="fotos/team_Foto.jpg" alt="een foto van mijn team en ik" class="w-max h-max" width="400"
+                    height="300">
             </div>
             <div class="mt-6">
                 <p class="inline-block mb-4 px-3 py-1 border border-gray-400 bg-gray-100">MIJN VERHAAL</p>
                 <h2 class="text-xl font-medium mb-6">Waar Passie Doel Ontmoet</h2>
                 <div class="text-gray-600">
                     <p class="mb-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor fugiat impedit quibusdam beatae
-                        totam
-                        inventore incidunt, tempora animi voluptatem architecto eos provident rerum velit labore
-                        voluptatum
-                        aperiam eaque amet dicta.
+                        Volleybal speelt al een grote rol in mijn leven. Op mijn 17e heb ik al meer dan vijf jaar
+                        ervaring opgebouwd en ben ik blijven groeien als speler, zowel technisch als mentaal. Wat begon
+                        als een hobby is uitgegroeid tot een echte passie waar ik dagelijks mee bezig ben.
                     </p>
                     <p class="mb-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum libero magni illo accusantium
-                        earum
-                        dolorem pariatur minima facere? Temporibus saepe nemo odio itaque reprehenderit quae dolorem
-                        aliquid
-                        a pariatur! Dolores.
+                        Door hard te trainen en altijd het beste uit mezelf te willen halen, heb ik mooie ervaringen
+                        opgedaan binnen de sport. Elke training en wedstrijd heeft mij geholpen om sterker,
+                        zelfverzekerder en doelgerichter te worden. Daarnaast heb ik geleerd hoe belangrijk teamwork,
+                        discipline en doorzettingsvermogen zijn.
 
                     </p>
                     <p class="">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore blanditiis perspiciatis nemo
-                        ratione inventore laudantium dolorem soluta dicta, voluptatibus optio dolore facilis?
-                        Perspiciatis
-                        vitae amet natus iusto ab velit dolorum.
+                        Mijn doel is om mezelf verder te ontwikkelen en steeds hogere niveaus te bereiken binnen het
+                        volleybal. Ik blijf werken aan mijn vaardigheden en kijk uit naar nieuwe uitdagingen die mij
+                        dichter bij mijn dromen brengen.
                     </p>
                 </div>
             </div>
         </section>
-        <section id="reis" class="py-16 px-6 lg: px-8 bg-gray-50 border-b-2 border-gray-300">
+        <section id="reis" class="py-16 px-6 lg:px-8 bg-gray-50 border-b-2 border-gray-300">
             <div class="">
                 <div>
                     <div class="text-center mb-12">
@@ -131,15 +141,14 @@
                         <div class="border-2 border-gray-300 p-6 flex-1">
                             <div class="flex items-center mb-3 gap-2">
                                 🗓️
-                                <span>2024</span>
+                                <span>2021</span>
                             </div>
-                            <h3 class="mb-3 text-xl">Verandering</h3>
+                            <h3 class="mb-3 text-xl">Begin van Volleybal</h3>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, beatae nobis sapiente
-                                quibusdam
-                                quasi neque, ipsum corrupti eius quas, nam expedita commodi amet dolores culpa possimus!
-                                Iusto
-                                quaerat voluptatum accusantium.
+                                Mijn volleybalreis begon meer dan vijf jaar geleden. Wat eerst gewoon een nieuwe sport
+                                was om uit te proberen, groeide al snel uit tot een grote passie. Door veel te trainen
+                                en wedstrijden te spelen ontdekte ik hoe leuk ik het vond om mezelf steeds verder te
+                                ontwikkelen.
                             </p>
                         </div>
                     </div>
@@ -149,15 +158,13 @@
                         <div class="border-2 border-gray-300 p-6 flex-1">
                             <div class="flex items-center mb-3 gap-2">
                                 🗓️
-                                <span>2024</span>
+                                <span>2025</span>
                             </div>
-                            <h3 class="mb-3 text-xl">Verandering</h3>
+                            <h3 class="mb-3 text-xl">Nieuwe Uitdagingen</h3>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, beatae nobis sapiente
-                                quibusdam
-                                quasi neque, ipsum corrupti eius quas, nam expedita commodi amet dolores culpa possimus!
-                                Iusto
-                                quaerat voluptatum accusantium.
+                                Tijdens dit seizoen kreeg ik de kans om mezelf op een hoger niveau te bewijzen. Door
+                                tegen sterkere tegenstanders te spelen en samen te werken met ervaren teamgenoten heb ik
+                                veel geleerd en mijn spel verder verbeterd.
                             </p>
                         </div>
                     </div>
@@ -167,15 +174,13 @@
                         <div class="border-2 border-gray-300 p-6 flex-1     ">
                             <div class="flex items-center mb-3 gap-2">
                                 🗓️
-                                <span>2024</span>
+                                <span>2026-???</span>
                             </div>
-                            <h3 class="mb-3 text-xl">Verandering</h3>
+                            <h3 class="mb-3 text-xl">Toekomst</h3>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, beatae nobis sapiente
-                                quibusdam
-                                quasi neque, ipsum corrupti eius quas, nam expedita commodi amet dolores culpa possimus!
-                                Iusto
-                                quaerat voluptatum accusantium.
+                                Mijn reis in het volleybal is nog lang niet voorbij. Ik blijf trainen, leren en werken
+                                aan mijn doelen. Met dezelfde passie en motivatie wil ik de komende jaren nieuwe
+                                prestaties behalen en mezelf blijven uitdagen om beter te worden.
                             </p>
                         </div>
                     </div>
@@ -192,12 +197,18 @@
                     </p>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                    <img src="fotos/aanval.jpg" alt="">
-                    <img src="fotos/block.jpg" alt="">
-                    <img src="fotos/service.jpg" alt="">
-                    <img src="fotos/team.jpg" alt="">
-                    <img src="fotos/reactie.jpg" alt="">
-                    <img src="fotos/pokey.jpg" alt="">
+                    <img src="fotos/aanval.jpg" alt="foto van ik die een aanval doet tijdens een wedstrijd"
+                        class="w-full h-auto" width="400" height="300">
+                    <img src="fotos/block.jpg" alt="foto van ik die een block uitvoert" class="w-full h-auto"
+                        width="400" height="300">
+                    <img src="fotos/service.jpg" alt="foto van ik die een service uitvoert" class="w-full h-auto"
+                        width="400" height="300">
+                    <img src="fotos/team.jpg" alt="foto van mijn team die in een circle staan" class="w-full h-auto"
+                        width="400" height="300">
+                    <img src="fotos/reactie.jpg" alt="foto van ik die reageert op de scheidsrechter"
+                        class="w-full h-auto" width="400" height="300">
+                    <img src="fotos/pokey.jpg" alt="foto van ik met die een ball tip" class="w-full h-auto" width="400"
+                        height="300">
                 </div>
             </div>
         </section>
@@ -208,9 +219,9 @@
                     <p class="mb-12">Of je nu wilt praten over volleybal, trainingstechnieken wilt bespreken, of
                         samenwerkingsmogelijkheden wilt verkennen, ik hoor graag van je.</p>
                     <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-                        <a href="offsmp1234@gmail.com"
+                        <a href="mailto:offsmp1234@gmail.com"
                             class="inline-flex items-center justify-center border-2 border-white gap-2 bg-white text-gray-800 px-8 py-3">
-                            <img src="fotos/E-mail.png" alt="" class="size-5">
+                            <img src="fotos/E-mail.png" alt="foto van een e-mail logo" class="size-5">
                             Stuur E-mail
                         </a>
                         <a href=""
@@ -219,12 +230,13 @@
                     </div>
                     <div class="flex justify-center items-center gap-4">
                         <a href="https://www.instagram.com/cryo_0/"
-                            class="size-10 border-2 border-white flex items-center justify-center"><img
-                                src="fotos/instagram-white-icon.webp" alt="instagram logo in het wit"
+                            class="size-10 border-2 border-white flex items-center justify-center" width="40"
+                            height="40"><img src="fotos/instagram-white-icon.webp" alt="instagram logo in het wit"
                                 class="size-5"></a>
                         <a href="mailto:offsmp1234@gmail.com"
-                            class="size-10 border-2 border-white flex items-center justify-center"><img
-                                src="fotos/snap_logo.png " alt="snapchat logo in het wit" class="size-5">
+                            class="size-10 border-2 border-white flex items-center justify-center" width="40"
+                            height="40"><img src="fotos/snap_logo.png " alt="snapchat logo in het wit" class="size-5">
+
                         </a>
                     </div>
                 </div>
